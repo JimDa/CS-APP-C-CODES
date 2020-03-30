@@ -1,10 +1,8 @@
-#include <stdio.h>
+//
+// Created by dell on 2020/3/30.
+//
+#include "section-2/show_bytes.h"
 
-int count() {
-    int a = 3;
-    printf("a = %d\n", a);
-    int b = 4;
-    printf("b = %d\n", b);
-    printf("start count a plus b!\n");
-    return a + b;
+void main() {
+    show_int(12345);
 }
