@@ -27,9 +27,11 @@ void main() {
     const char *s = "abcdef";
     show_bytes((byte_pointer) s, strlen(s));
      */
-    //ÀıÌâ2.8
+    /**ÀıÌâ2.8*/
     or(1, 2);
     and(1, 2);
     not(1);
     exclusive_not(1, 2);
+    /**ÀıÌâ2.12*/
+
 }
